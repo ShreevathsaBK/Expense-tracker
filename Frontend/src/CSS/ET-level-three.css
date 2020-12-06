@@ -1,0 +1,195 @@
+.level-three-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 70vh;
+    margin-top: 7vh;
+}
+
+.level-three-left{
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 5vw 2vh 5vw;
+    width: 40vw;
+    height: 70vh;
+    background-color: rgb(67, 65, 70);
+    color:#4caf50;
+    font-size:1.2vmax;
+    overflow-y: scroll;
+
+}
+
+.reminder-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-height: 500px;
+    width: 20vw;
+}
+
+.reminder-form .remindInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-height: 250px;
+    width: 20vw;
+}
+
+.reminder-form input{
+    height: 5vh;
+    padding-left: 1vw;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    width: 20vw;
+    border:none;
+    background:none;
+    outline:none;
+    border-bottom:0.1vmax solid #4caf50;
+    color: white;
+    font-size:1vmax;
+}
+
+.reminder-form textarea{
+    margin-left: 1vw;
+    margin-top: 1vh;
+    outline:none;
+    font-size:1vmax;
+    width: 20vw;
+}
+
+.level-three-container label{
+    margin-top: 1vh;
+}
+
+.reminder-form input[type='submit']{
+    font-weight: bold;
+    border:0.1vmax solid #4caf50;
+    cursor: pointer;
+    border-radius:0.5vmax;
+    transition: background-color 300ms;
+}
+
+.reminder-form input[type='submit']:hover{
+    box-shadow: none;
+    background-color: #4caf50;
+}
+
+.reminder-form .remindDisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-height: 250px;
+    width: 20vw;
+}
+
+
+
+.level-three-left span{
+    float: right;
+    height: 100%;
+    color:white;
+    padding: 0vh 1vw;
+}
+
+.level-three-left ul{
+    padding: 0px;
+    color:black;
+}
+
+.remind-item{
+    margin: 1vh 0vw;
+    padding-left: 2vh;
+    list-style-type: none;
+    background-color: rgb(183, 250, 183);
+    color: rgb(56, 139, 56);
+    font-weight: bold;
+    text-transform: capitalize;
+    height: 6vh;
+    line-height: 6vh;
+    overflow-x:auto;
+}
+
+.remind-item span:nth-child(2){
+    color: rgb(56, 139, 56);
+}
+
+.remind-item span:nth-child(1){
+    color: rgb(255, 146, 146);
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 300ms,
+                color 300ms;
+}
+
+.remind-item span:nth-child(1):hover{
+    color: white;
+    background-color: rgb(255, 116, 116);
+}
+
+
+
+.level-three-right{
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 5vw 2vh 5vw;
+    width: 40vw;
+    height: 70vh;
+    background-color: rgb(67, 65, 70);
+    color:#4caf50;
+    font-size:1.2vmax;
+}
+
+.level-three-right input{
+    height: 4vh;
+    width: 10vw;
+    margin-left: 0.5vw;
+    border:none;
+    background:none;
+    outline:none;
+    border-bottom:0.1vmax solid #4caf50;
+    color:white;
+    font-size:1vmax;
+}
+
+.level-three-right select{
+    height: 4vh;
+    width: 10vw;
+    margin-left: 0.5vw;
+    margin-bottom: 1vh;
+    border:none;
+    outline:none;
+    background:none;
+    border-bottom:0.1vmax solid #4caf50; 
+    color:white;
+    font-size:1vmax;
+}
+
+.level-three-right option{
+    background-color:  rgb(72, 69, 82);
+}
+
+.level-three-container p{
+    margin: 1vh 0vw 1vh 0vw;
+}
+
+.level-three-right button{
+    height: 5vh;
+    width: 15vw;
+    margin: auto;
+    font-weight: bold;
+    border:0.1vmax solid #4caf50;
+    background:none;
+    cursor: pointer;
+    border-radius:0.5vmax;
+    color:white;
+    transition: background-color 300ms;
+}
+
+.level-three-right button:hover{
+    background-color:#4caf50;
+    
+}
+

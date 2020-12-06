@@ -1,0 +1,151 @@
+.level-two-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 70vh;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+
+.level-two-left{
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 5vw 2vh 5vw;
+    width: 40vw;
+    height: 70vh;
+    background-color: rgb(67, 65, 70);
+    color:white;
+    font-size:1.2vmax;
+}
+
+.level-two-left input{
+    height: 4vh;
+    width: 2.5vw;
+    margin-left: 0.5vw;
+    border:none;
+    background:none;
+    outline:none;
+    border-bottom:0.1vmax solid #4caf50;
+    color:rgb(223, 222, 222);
+    font-size:1vmax;
+}
+
+.level-two-left select{
+    height: 4vh;
+    width: 7vw;
+    margin-left: 0.5vw;
+    margin-bottom: 1vh;
+    border:none;
+    outline:none;
+    background:none;
+    border-bottom:0.1vmax solid #4caf50; 
+    color: white;
+    font-size:1vmax;
+}
+
+.level-two-container label{
+    margin-left: 2vw;
+    color: #4caf50;
+}
+
+.level-two-left option{
+    background-color:  rgb(72, 69, 82);
+}
+
+.level-two-left input[type='submit']{
+    height: 5vh;
+    width: 5vw;
+    margin-left: 2vw;
+    font-weight: bold;
+    border:0.1vmax solid #4caf50;
+    background:none;
+    cursor: pointer;
+    border-radius:0.5vmax;
+    color:white;
+    transition: background-color 300ms;
+}
+
+.level-two-left input[type='submit']:hover{
+    box-shadow: none;
+    background-color: #4caf50;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.level-two-right{
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 5vw 2vh 5vw;
+    width: 40vw;
+    height: 70vh;
+    background-color: rgb(67, 65, 70);
+    color:white;
+    font-size:1.2vmax;
+}
+
+.level-two-right select{
+    height: 4vh;
+    width: 7vw;
+    margin-left: 0.5vw;
+    margin-bottom: 1vh;
+    border:none;
+    outline:none;
+    background:none;
+    border-bottom:0.1vmax solid #4caf50; 
+    color:rgb(223, 222, 222);
+    font-size:1vmax;
+}
+
+.level-two-right option{
+    background-color:  rgb(72, 69, 82);
+}
+
+.level-two-right input[type='submit']{
+    height: 5vh;
+    width: 5vw;
+    margin-left: 2vw;    
+    font-weight: bold;
+    border:0.1vmax solid #4caf50;
+    background:none;
+    cursor: pointer;
+    border-radius:0.5vmax;
+    color:white;
+    transition: background-color 300ms;
+}
+
+.level-two-right input[type='submit']:hover{
+    box-shadow: none;
+    background-color: #4caf50;
+}
+
+.level-two-right input{
+    height: 4vh;
+    width: 2.5vw;
+    margin-left: 0.5vw;
+    border:none;
+    background:none;
+    outline:none;
+    border-bottom:0.1vmax solid #4caf50;
+    color:rgb(223, 222, 222);
+    font-size:1vmax;
+}

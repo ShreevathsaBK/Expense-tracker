@@ -1,0 +1,89 @@
+/* Uncomment the below css border property to see all the boxes */
+
+/* *{
+    border: 1px solid red;
+} */
+
+.main{
+    padding-bottom: 7vh;
+}
+
+.welcome{
+    position: sticky;
+    top: 7vh;
+    z-index: 1;
+    height: 9vh;
+    line-height: 9vh;
+    margin: 0px;
+    background-color: rgb(183, 250, 183);
+    color: rgb(56, 139, 56);
+    padding-left: 1vw; 
+}
+
+
+h4 button{
+    position: relative;
+    float: right;
+    padding: 1vh 2vw 1vh 2vw;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 1vw;
+    background-color: rgb(183, 250, 183);
+    outline: none;
+    color: rgb(56, 139, 56);
+    border: 1px solid rgb(56, 139, 56);
+    border-radius: 1vh;
+    cursor: pointer;
+    transition: background-color 300ms,
+                color 300ms;
+}
+
+h4 button:hover{
+    background-color: #4caf50;
+    color: white;
+}
+
+.logout{
+    position: absolute;
+    background-color: rgb(255, 139, 139);
+    border-radius: 2vh;
+    text-align: center;
+    border: 3px solid red;
+    height: 15vh;
+    color: white;
+    line-height: 15vh;
+    width: 90vw;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,0);
+}
+
+.main{
+    background-color:rgb(151, 149, 149);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+.Home-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 93vh;
+    background-image: url("theme3.jpg");
+    background-size: cover;
+    opacity:0.85;
+    background-attachment: fixed;
+    font-family: Jazz LET, fantasy;
+    letter-spacing:0.1vmax;
+}
+
+.Heading{
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 5vmax;    
+    width: 100%;
+    text-shadow: 0.65vmax 0.65vmax 0.5vmax #000000;
+    padding: 5%;
+}
+
+#hr-2{
+    margin: 2vh auto 0vh;
+    padding: 0px;
+    max-width: 300px;
+    border: 0px;
+    border-top: 5px solid #4caf50;
+}
+
+
+.Start-btn{
+    border: none;
+    padding: 2vh 5vw 2vh 5vw;
+    outline: none;
+    height: 10vh;
+    font-size: 5vh;
+    font-weight: bold;    
+    color: white;
+    box-shadow: 0 8px 16px 0 black;
+    border: 3px solid black;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    background: transparent;
+    transition: border 500ms,
+                color 500ms,
+                box-shadow 500ms,
+                background-color 500ms;
+    font-family:Courier New, monospace;
+}
+
+.Start-btn:hover{
+    box-shadow: none;
+    background-color:white;
+    color: rgb(14, 13, 13);
+   
+}
+
+.Start-btn a{
+    text-decoration: none;
+}
+
+.Home-intro{
+    background-image: url("bg-1.jpg");
+    background-color:white;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10vh 15vw 10vh 15vw;
+    font-family:FreeMono, monospace;
+    height: 86vh;
+}
+
+.Home-intro div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 5vw 5vh 5vw;
+    height: 60vh;
+    font-size: 2.5vmin;
+    backdrop-filter: blur(10px);
+    color: white
+}
+
+.Home-intro p{
+    font-family: Verdana, sans-serif;
+}
+
+.Home-intro div h2,.Home-intro div hr, .Home-intro div p{
+    padding-bottom: 2vw;
+}
+
+.Home-div h1, .Home-div h2, .Home-div button, .Home-div img{
+    animation: slidein 1s;
+}
+
