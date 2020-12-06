@@ -15,7 +15,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json())
 app.use('/', router);
 
-
 mongoose.connect('mongodb://localhost:27017/ET-DB',
     {
         useNewUrlParser: true,
@@ -29,9 +28,6 @@ mongoose.connect('mongodb://localhost:27017/ET-DB',
         console.log("Mongo db connection error")
         console.log(err)
     })
-
-
-
 
 
 router.post("/signUpData", function (req, res) {
